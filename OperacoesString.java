@@ -1,7 +1,7 @@
-/* @Autora: Thais Gabriele Cardoso do Nascimento 
- * @Data: 20/10/2016 
- * Description:  le uma string digitada pelo usuário. Em seguida, imprime as seguintes informações sobre a s
- * tring, necessariamente na ordem indicada nos cometários abaixo*/
+/* @Author: Thais Nascimento 
+ * @Date: 20/10/2016 
+ * Description:  le uma string digitada pelo usuÃ¡rio. Em seguida, imprime as seguintes informaÃ§Ãµes sobre a s
+ * tring, necessariamente na ordem indicada nos cometÃ¡rios abaixo*/
 import java.util.Scanner;
 
 public class OperacoesString {
@@ -26,23 +26,23 @@ public class OperacoesString {
 		primChar = nome.charAt(0);
 		System.out.println(primChar);
 		
-		//Último caractere da string
+		//Ãšltimo caractere da string
 		ultChar = nome.charAt(Size-1);
 		System.out.println(ultChar);
 		
-		//Conversão da string em caracteres maiúsculos
+		//ConversÃ£o da string em caracteres maiÃºsculos
 		String Upper = nome.toUpperCase();
 		System.out.println(Upper);
 		
-		//Conversão da string em caracteres minúsculos
+		//ConversÃ£o da string em caracteres minÃºsculos
 		String Lower = nome.toLowerCase();
 		System.out.println(Lower);
 		
-		//Substituição de todas as letras "a" por "e"
+		//SubstituiÃ§Ã£o de todas as letras "a" por "e"
 		String nomeAlterado = nome.replace('a', 'e');
 		System.out.println(nomeAlterado);
 		
-		 //Impressão dos caracteres com índices pares
+		 //ImpressÃ£o dos caracteres com Ã­ndices pares
 		for (int j = 0; j < Size; j++){
 			if (j % 2 == 0){
 				System.out.print(nome.charAt(j));

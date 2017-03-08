@@ -1,7 +1,6 @@
 /* @Author: Thais Nascimento 
  * @Date: 20/10/2016 
- * Description:  le uma string digitada pelo usuário. Em seguida, imprime as seguintes informações sobre a s
- * tring, necessariamente na ordem indicada nos cometários abaixo*/
+*/
 import java.util.Scanner;
 
 public class OperacoesString {
